@@ -59,7 +59,7 @@ class Test_case_id_ddt_001:
                     lst_status.append("fail")
                 elif self.exp_result =="fail":
                      self.Logger1.info("***pass***")         
-                     lst_status.append("****pass****")
+                     lst_status.append("****pass****")  #jhjh
         if "fail" not in lst_status:
             self.Logger1.info("***ddt test pass****")
             self.driver.close()
